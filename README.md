@@ -1,30 +1,45 @@
-# Skill ranking app
+# Skill Ranking App
+[skillgraph.co](https://skillgraph.co)
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A web application that allows users to visually map their skills.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/saint0xs-projects/skillgraph)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/HZiCVFF3AXq)
+## Tech Stack
 
-## Overview
+-   **Framework:** [Next.js](https://nextjs.org/)
+-   **Language:** [TypeScript](https://www.typescriptlang.org/)
+-   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+-   **UI Components:** [shadcn/ui](https://ui.shadcn.com/)
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## Getting Started
 
-## Deployment
+To get a local copy up and running, follow these simple steps.
 
-Your project is live at:
+### Prerequisites
 
-**[https://vercel.com/saint0xs-projects/skillgraph](https://vercel.com/saint0xs-projects/skillgraph)**
+-   Node.js (v18 or later)
+-   npm, yarn, or pnpm
 
-## Build your app
+### Installation
 
-Continue building your app on:
+1.  Clone the repo:
+    \`\`\`sh
+    git clone https://github.com/saint0xs/skillgraph.git
+    \`\`\`
+2.  Navigate to the project directory:
+    \`\`\`sh
+    cd skillgraph
+    \`\`\`
+3.  Install NPM packages:
+    \`\`\`sh
+    npm install
+    \`\`\`
+4.  Run the development server:
+    \`\`\`sh
+    npm run dev
+    \`\`\`
 
-**[https://v0.dev/chat/projects/HZiCVFF3AXq](https://v0.dev/chat/projects/HZiCVFF3AXq)**
+The application will be available at `http://localhost:3000`.
 
-## How It Works
+---
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+*This project was built with [v0.dev](https://v0.dev) and is deployed on [Vercel](https://vercel.com).*
